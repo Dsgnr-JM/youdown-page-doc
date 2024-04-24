@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: "Open Sans Variable";
+}
+body{
+    background: url(sa0000.png) repeat , rgb(255, 238, 238);
+    background-size: 300px;
+    background-blend-mode: soft-light;
+    animation: bg 300ms infinite alternate;
+}
+.header-a{
+    animation:header-h auto linear forwards;
+	animation-timeline: scroll(nearest block);
+}
+@keyframes bg{
+    0%{
+        background-position: -5% 5%;
+    }
+    10%{
+        background-position: 5% 0%;
+    }
+    20%{
+        background-position: 0 5%;
+    }
+    40%{
+        background-position: -5% 0%;
+    }
+    50%{
+        background-position: -5% -5%;
+    }
+    70%{
+        background-position: 0% 0%;
+    }
+    90%{
+        background-position: 5% -5%;
+    }
+    50%{
+        background-position: 0% 5%;
+    }
+}
+@keyframes header-h {
+    0%{
+        background: transparent;
+    }
+    100%{
+        background: rgba(255,255,255,.35);
+        backdrop-filter: blur(12px);
+        box-shadow: 0 2px 12px rgba(0,0,0,.02);
+    }
+}

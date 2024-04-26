@@ -17,7 +17,7 @@ export default function Home() {
         </p>
         <div className="flex gap-2">
           <Button to="/doc" type={0} isNav={true} title="Documentacion" />
-          <Button to="https://api.jdoxx.com/api/y2mate=" type={1} isNav={false} title="Probar Ya" />
+          <Button to="https://stream.jdoxx.com/api/y2mate=" type={1} isNav={false} title="Probar Ya" />
         </div>
       </main>
       <section className="w-full h-[44rem] grid grid-cols-2">

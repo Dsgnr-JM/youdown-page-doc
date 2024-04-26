@@ -24,7 +24,7 @@ const actions = [
     icon: <StarIcon height="1rem" color="rgba(0,0,0,.5)"/>,
     shortcut: ["s"],
     keywords: "probar el producto o get started",
-    perform: () => (window.location.pathname = "doc/started"),
+    perform: () => (window.location.pathname = "doc"),
   },
   {
     id: "contact",

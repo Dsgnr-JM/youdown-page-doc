@@ -5,6 +5,7 @@ const variantTypes = ['font-normal', 'font-semibold', 'font-bold','font-extrabol
 const colorTypes = ['text-black','text-red-500/85', 'text-red-600/60','text-gray-900/80']
 
 export default function Typography({type, variant, children="",className="", color}) {
+    
     return (
         type === 0 ?
             <h1 className={`${types[type]} ${className} ${variantTypes[variant]} ${colorTypes[color]}`}>

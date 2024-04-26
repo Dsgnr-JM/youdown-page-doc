@@ -21,7 +21,7 @@ export default function RenderResults() {
             >
               {item?.icon}
               <p className="flex-1 text-left font-medium text-gray-950/80">{item.name}</p>
-              <code className="opacity-80 px-[0.1rem] bg-gray-200 rounded">{item?.shortcut}</code>
+              <code className="opacity-80 px-[0.1rem] bg-gray-200  rounded">{item?.shortcut}</code>
             </button>
           )
         }
